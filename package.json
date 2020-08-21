@@ -1,0 +1,24 @@
+{
+  "name": "serverless-express-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cggillotti/serverless-express-aws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cggillotti/serverless-express-aws/issues"
+  },
+  "homepage": "https://github.com/cggillotti/serverless-express-aws#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.5.0"
+  }
+}
