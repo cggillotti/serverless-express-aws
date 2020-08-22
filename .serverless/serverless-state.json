@@ -160,7 +160,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/sample-app/dev/1597975135784-2020-08-21T01:58:55.784Z/sample-app.zip"
+                "S3Key": "serverless/sample-app/dev/1598026192690-2020-08-21T16:09:52.690Z/sample-app.zip"
               },
               "FunctionName": "sample-app-dev-app",
               "Handler": "app/app.handler",
@@ -178,14 +178,14 @@
               "AppLogGroup"
             ]
           },
-          "AppLambdaVersionenQ1DJ9e6Ten7c0cHz3By3se0ODQ015JV7lP2NgQEYE": {
+          "AppLambdaVersionQv5usJAb1Bw88gSKrS7NiIXoqMJ5yVbUZ6xtxEcvOY": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
-              "CodeSha256": "Q694FJRb2mdvUPfg4SGeeC1TBKLK83tLEa/B/3QeEaU="
+              "CodeSha256": "nNXvnDTrEY0pjevo0yXkJpB57FXm+MpUXWxqcK+B758="
             }
           },
           "ApiGatewayRestApi": {
@@ -397,7 +397,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1597975133926": {
+          "ApiGatewayDeployment1598026190849": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -459,7 +459,7 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AppLambdaVersionenQ1DJ9e6Ten7c0cHz3By3se0ODQ015JV7lP2NgQEYE"
+              "Ref": "AppLambdaVersionQv5usJAb1Bw88gSKrS7NiIXoqMJ5yVbUZ6xtxEcvOY"
             }
           },
           "ServiceEndpoint": {
@@ -620,7 +620,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "AppLambdaVersionenQ1DJ9e6Ten7c0cHz3By3se0ODQ015JV7lP2NgQEYE"
+        "versionLogicalId": "AppLambdaVersionQv5usJAb1Bw88gSKrS7NiIXoqMJ5yVbUZ6xtxEcvOY"
       }
     },
     "configValidationMode": "warn",
@@ -637,8 +637,8 @@
         "$ref": "$[\"service\"][\"functions\"]"
       },
       "package": {
-        "artifact": "/Users/cgg/Projects/serverless/serverless-express-aws/.serverless/sample-app.zip",
-        "artifactDirectoryName": "serverless/sample-app/dev/1597975135784-2020-08-21T01:58:55.784Z"
+        "artifact": "/mnt/c/Users/chris/Projects/scott-birthday/serverless-express-aws/.serverless/sample-app.zip",
+        "artifactDirectoryName": "serverless/sample-app/dev/1598026192690-2020-08-21T16:09:52.690Z"
       },
       "layers": {
         "$ref": "$[\"service\"][\"layers\"]"
@@ -646,10 +646,10 @@
       "configValidationMode": "warn"
     },
     "isDashboardMonitoringPreconfigured": false,
-    "artifact": "/Users/cgg/Projects/serverless/serverless-express-aws/.serverless/sample-app.zip"
+    "artifact": "/mnt/c/Users/chris/Projects/scott-birthday/serverless-express-aws/.serverless/sample-app.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/sample-app/dev/1597975135784-2020-08-21T01:58:55.784Z",
+    "artifactDirectoryName": "serverless/sample-app/dev/1598026192690-2020-08-21T16:09:52.690Z",
     "artifact": "sample-app.zip"
   }
 }
